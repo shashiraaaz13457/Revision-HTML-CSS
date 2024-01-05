@@ -16,17 +16,22 @@
             <h2><i><u>Codehelp Website Home page</u></i></h2>
             <h3>&nbsp;&nbsp;Welcome to Codehelp</h3>
             <table border="3" style="background-color: yellowgreen;">
+                <caption><b>Login page</b></caption>
+                <thead>
                 <tr>
-                    <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Username &nbsp;&nbsp;</i></td>
+                    <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Username &nbsp;&nbsp;</i></th>
                     <td colspan=""><input type="text"></td>
                 </tr>
                 <tr>
-                    <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Password &nbsp;&nbsp;</i></td>
+                    <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Password &nbsp;&nbsp;</i></th>
                     <td colspan=""><input type="text"></td>
                 </tr>
+            </thead>
+            <tbody>
                 <tr>   
                     <td><center><button>Submit</button></center></td>
                 </tr>
+            </tbody>
             </table>
         </div>
     
@@ -60,6 +65,34 @@
                     <td><input type="submit" value="Shashi Submit it"></td>
                 </tr>
             </table>
+            <br><br>
+            <h3>Registration form</h3>
+            <form action="/action.php">
+                <input type="text" placeholder="Username">
+                <br><br>
+                <input type="password" placeholder="password">
+                <br><br>
+                <label for="101">
+                    <input type="radio" value="Class XI" name="Class" id="101">ClassXI
+                </label>
+                <label for="102">
+                    <input type="radio" value="ClassXII" name="Class">ClassXII
+                </label>
+                <br><br>
+                Select your city
+                <select name="City">
+                    <option value="Delhi">Delhi</option>
+                    <option value="Banglore">Banglore</option>
+                    <option value="Mumbai">Mumbai</option>
+                </select>
+
+                <br><br>
+                <textarea name="feedback" id="101" cols="30" rows="5" placeholder="Please your feedback"></textarea>
+                <br>
+                <input type="submit" value="submit">
+            </form>
+
+            <iframe src="https://www.wikipedia.org/" frameborder="0"></iframe>
            
         </div>
     </main>
